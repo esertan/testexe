@@ -56,6 +56,7 @@ set(_test_sources)
 foreach(_test
     test_add_numbers
     test_subtract_numbers
+    test_multiply_numbers
     )
     add_custom_command(
         OUTPUT ${PROJECT_BINARY_DIR}/generated/${_test}.F90
