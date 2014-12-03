@@ -8,7 +8,7 @@ subroutine test_multiply_numbers()
 
    real(8) :: res
 
-   call multipy_numbers(1.0d0, 2.0d0, res)
+   call multiply_numbers(1.0d0, 2.0d0, res)
    @assertEqual(res, 2.0d0)
 
 end subroutine
