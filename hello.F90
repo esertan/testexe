@@ -16,7 +16,7 @@ contains
       real(8), intent(in)  :: f2
       real(8), intent(out) :: res
 
-      res = f1 + f2
+      res = f1 + f2 + 1.0
 
    end subroutine
 
